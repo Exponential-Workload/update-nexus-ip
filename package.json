@@ -1,5 +1,5 @@
 {
-  "name": "update-nexus-ip",
+  "name": "@3xpo/update-nexus-ip",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
