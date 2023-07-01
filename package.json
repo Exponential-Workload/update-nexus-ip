@@ -8,6 +8,7 @@
     "dev": "echo $ build && rollup -c --bundleConfigAsCjs && echo $ start && node .",
     "start": "node ."
   },
+  "bin": "./cli.js",
   "keywords": [],
   "author": "Exponential-Workload",
   "license": "MIT",
