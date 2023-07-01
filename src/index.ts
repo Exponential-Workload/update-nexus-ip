@@ -22,7 +22,7 @@ type App = {
   ipReputation: boolean
 }
 
-const token = process.env.NEXUSPIPE_TOKEN || fs.readFileSync('./token.txt', 'utf-8');
+const token = process.env.NEXUSPIPE_TOKEN || (fs.existsSync('./token.txt') && fs.readFileSync('./token.txt', 'utf-8'));
 
 if (!token)
   throw new Error('No token provided - Must put it in ./token.txt or the env variable NEXUSPIPE_TOKEN!');
