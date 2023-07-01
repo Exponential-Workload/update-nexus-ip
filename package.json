@@ -1,6 +1,6 @@
 {
   "name": "@3xpo/update-nexus-ip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -27,5 +27,6 @@
     "get-cursor-position": "^2.0.0",
     "prompts": "^2.4.2",
     "yargs": "^17.7.2"
-  }
+  },
+  "homepage": "https://github.com/Exponential-Workload/update-nexus-ip"
 }
